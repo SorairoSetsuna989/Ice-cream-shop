@@ -2,7 +2,7 @@ const nav = document.getElementById("navbar");
 
 const pages = {
     "Home":"index.html",
-    "Ice Cream Flavors": "flavors.html",
+    "Flavors": "flavors.html",
     "Order Online": "order.html",
     "About": "about.html",
 };
@@ -10,5 +10,9 @@ const pages = {
 // Adds nav bar links based on the dictionary entries of pages
 Object.keys(pages).forEach(name => {
     const href= pages[name];
-    nav.innerHTML += `<a href=${href}>${name}</a>`;
+    const title = document.title.toLocaleLowerCase()
+    const _name = name.toLocaleLowerCase();
+    const current = (title.search(_name) != -1) ? "id=current":"";
+
+    nav.innerHTML += `<a href=${href} ${current}>${name}</a>`;
 })
