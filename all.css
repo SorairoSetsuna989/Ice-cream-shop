@@ -1,0 +1,22 @@
+:root {
+    --bg: red;
+    --bg-hover: orange;
+    --main-col: yellow;
+    --sub-col: green;
+}
+
+#navbar { margin: 5px; }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a {
+    padding: 5px;
+    margin: 5px;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid black;
+}
