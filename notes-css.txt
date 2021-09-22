@@ -1,0 +1,5 @@
+At least one example for each of the ff selectors:
+tag
+id
+class
+tag.class

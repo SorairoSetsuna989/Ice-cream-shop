@@ -3,6 +3,12 @@
     --bg-hover: orange;
     --main-col: yellow;
     --sub-col: green;
+
+    --orange-red-crayola: #fe5f55ff;
+    --middle-yellow-red: #f0b67fff;
+    --dutch-white: #d6d1b1ff;
+    --aero-blue: #c7efcfff;
+    --beige: #eef5dbff;
 }
 
 #navbar { margin: 5px; }
@@ -24,4 +30,3 @@ a {
 #current {
     border-bottom: 1px solid red;
 }
-
