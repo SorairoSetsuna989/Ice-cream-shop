@@ -3,3 +3,14 @@ tag
 id
 class
 tag.class
+
+todo: ask convert to restaurant
+todo: rename desserts to desserts page
+todo: optional: add dishes page
+
+Contributions:
+
+    content:
+        Desserts page : all
+        About page: Melissa 
+        Home page : Louis, Cyrill

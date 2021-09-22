@@ -1,22 +1,6 @@
-.card p {
-    font-size: 1.4rem;
-    text-align: center;
-}
-
-.card img {
-    border-bottom-right-radius: var(--radius);
-    border-bottom-left-radius: var(--radius);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-body {
-    margin: 2em;
-    font-family: "Pacifico", cursive;
-}
 
 .card-wrapper {
-    height: 352px;
+    height: 320px;
     width: 312px;
     border: 2px solid black;
     border-radius: 1em;
@@ -25,7 +9,6 @@ body {
     flex-direction: column;
     overflow: hidden;
 }
-
 .card-image {
     flex: 1 1;
     background-position: center;
@@ -34,7 +17,6 @@ body {
     backdrop-filter: blur(30px);
     justify-content: center;
 }
-
 .card-info {
     height: 25%;
     display: flex;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
     --bg: linen;
     --bg-hover: orange;
@@ -11,22 +13,20 @@
     --beige: #eef5dbff;
     --radius: 13px;
 }
-
 body {
- background-color: var(--bg);   
- color: var(--main-col);
+    background-color: var(--bg);   
+    color: var(--main-col);
+    margin: 2em;
+    font-family: "Pacifico", cursive;
 }
-
 #navbar { 
     margin: 4vh 0; 
     font-size: 1.5rem;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
 #navbar a {
     padding: 5px;
     margin: 5px;
@@ -35,24 +35,19 @@ a {
 #main {
     font-size: 1.2rem;
 }
-
 #navbar a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
-
 #current {
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
 }
-
 .card {
     border-radius: var(--radius);
     background-color: white;
 }
-
 .card img {
     width: 100%;
 }
-
 .grid {
     display: grid;
 }

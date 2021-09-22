@@ -2,7 +2,7 @@ const nav = document.getElementById("navbar");
 
 const pages = {
     "Home":"index.html",
-    "Flavors": "flavors.html",
+    "Desserts": "desserts.html",
     "Order Online": "order.html",
     "About": "about.html",
 };
