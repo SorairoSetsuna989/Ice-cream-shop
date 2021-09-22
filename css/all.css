@@ -1,7 +1,7 @@
 :root {
-    --bg: red;
+    --bg: linen;
     --bg-hover: orange;
-    --main-col: yellow;
+    --main-col: black;
     --sub-col: green;
 
     --orange-red-crayola: #fe5f55ff;
@@ -9,9 +9,18 @@
     --dutch-white: #d6d1b1ff;
     --aero-blue: #c7efcfff;
     --beige: #eef5dbff;
+    --radius: 13px;
 }
 
-#navbar { margin: 5px; }
+body {
+ background-color: var(--bg);   
+ color: var(--main-col);
+}
+
+#navbar { 
+    margin: 4vh 0; 
+    font-size: 1.5rem;
+}
 
 a {
     text-decoration: none;
@@ -23,10 +32,27 @@ a {
     margin: 5px;
 }
 
+#main {
+    font-size: 1.2rem;
+}
+
 #navbar a:hover {
     border-bottom: 1px solid black;
 }
 
 #current {
     border-bottom: 1px solid red;
+}
+
+.card {
+    border-radius: var(--radius);
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
 }
