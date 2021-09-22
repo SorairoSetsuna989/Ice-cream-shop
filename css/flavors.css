@@ -16,7 +16,7 @@ body {
 }
 
 .card-wrapper {
-    height: 256px;
+    height: 352px;
     width: 312px;
     border: 2px solid black;
     border-radius: 1em;
@@ -27,17 +27,20 @@ body {
 }
 
 .card-image {
-    flex: 1 75%;
-    background-position: left;
+    flex: 1 1;
+    background-position: center;
     background-size: cover;
     border-bottom: 2px solid black;
+    backdrop-filter: blur(30px);
+    justify-content: center;
 }
 
 .card-info {
-    flex: 1 25%;
+    height: 25%;
     display: flex;
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
     font-size: 1.25em;
+    transition: height 333ms ease-out;
 }
