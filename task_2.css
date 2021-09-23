@@ -2,31 +2,24 @@
     --color-1: #75d819;
     --color-2: white;
 }
-
 body {
     color: var(--color-2);
 }
-
 form {
     background-color: rgb(73, 64, 64);
     padding: 4vh 3vw;
     border-radius: 13px;
     width: max-content;
 }
-
 i {
     color: var(--color-1);
 }
-
 #main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-/* 1: Sons Justin  */
 .input-wrapper {
     border: 1px solid black;
     padding: 0;
@@ -48,8 +41,6 @@ i {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-
-/* 5 */
 #create_acc {
     border-radius: 20px;
     background-color: var(--color-1);
@@ -57,10 +48,9 @@ i {
     font-size: 20px;
     padding: 10px 15px;
 }
-
-.color { color: var(--color-1); }
-
-/* 6 */
+.color { 
+    color: var(--color-1); 
+}
 .btnother {
     border:none;
     color:var(--color-2);
@@ -70,7 +60,6 @@ i {
 .btn {
     background-color: #fd9678;
 }
-
 .btn2 , .btn3{
     background-color: #1abc9c;
     font-family: Arial, Helvetica, sans-serif;
