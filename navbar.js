@@ -12,10 +12,10 @@ const pages = {
 // Adds the company name in every page
 nav.innerHTML += "Flavors of the Modern World | "
 
-// Adds nav bar links based on the dictionary entries of pages
+// Adds nav bar links based on the "pages" object
 Object.keys(pages).forEach(name => {
     const href= pages[name];
-    const title = document.title.toLocaleLowerCase()
+    const title = document.title.toLocaleLowerCase();
     const _name = name.toLocaleLowerCase();
     const is_current = (title.search(_name) != -1) ? "id=current":"";
 
