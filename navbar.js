@@ -2,11 +2,13 @@ const nav = document.getElementById("navbar");
 
 const pages = {
     "Home":"index.html",
+    "Dishes": "dishes.html",
     "Desserts": "desserts.html",
     "Order Online": "order.html",
     "About": "about.html",
 };
 
+nav.innerHTML += "Flavors of the Modern World | "
 // Adds nav bar links based on the dictionary entries of pages
 Object.keys(pages).forEach(name => {
     const href= pages[name];
