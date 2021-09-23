@@ -1,5 +1,6 @@
 const nav = document.getElementById("navbar");
 
+// An object to store all page names and their respective links
 const pages = {
     "Home":"index.html",
     "Dishes": "dishes.html",
@@ -8,7 +9,9 @@ const pages = {
     "About": "about.html",
 };
 
+// Adds the company name in every page
 nav.innerHTML += "Flavors of the Modern World | "
+
 // Adds nav bar links based on the dictionary entries of pages
 Object.keys(pages).forEach(name => {
     const href= pages[name];
