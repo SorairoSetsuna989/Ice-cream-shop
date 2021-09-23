@@ -21,5 +21,4 @@ function spawn_cards(obj) {
   })
 }
 
-
 spawn_cards(obj)
