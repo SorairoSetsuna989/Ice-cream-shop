@@ -1,5 +1,5 @@
-// Similar to `card-spawner.js`, this function requires that
-// a script tag that contains an object named `foods` be present
+// Similar to `card-spawner.js`, this function requires
+// a script tag containing an object named `foods` be present
 // in the page that imports this script. This object should follow
 // the given format:
 //
