@@ -1,16 +1,22 @@
-At least one example for each of the ff selectors:
-tag
-id
-class
-tag.class
-
-todo: ask convert to restaurant
-todo: rename desserts to desserts page
-todo: optional: add dishes page
-
 Contributions:
+    Sitemap, navigation, and file organization: Jean Carlo
+    Drafted the page template.
 
-    content:
-        Desserts page : all
-        About page: Melissa 
-        Home page : Louis, Cyrill
+Home page: 
+    Content and custom CSS: Cyrill
+
+Card Design used in both Desserts and Dishes Page:
+    Sons Justin
+
+Desserts page:
+    Content: Sons Justin
+
+Dishes page: 
+    Content: Rheniel Damasco
+
+Orders Page:
+    Content and Design:
+        Sons Justin
+
+About page: 
+    Content and layout: Melissa 

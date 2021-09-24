@@ -2,13 +2,6 @@
     --bg: linen;
     --bg-hover: orange;
     --main-col: black;
-    --sub-col: green;
-
-    --orange-red-crayola: #fe5f55ff;
-    --middle-yellow-red: #f0b67fff;
-    --dutch-white: #d6d1b1ff;
-    --aero-blue: #c7efcfff;
-    --beige: #eef5dbff;
     --radius: 13px;
 }
 body {
@@ -22,7 +15,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: var(--main-col);
 }
 #navbar a {
     padding: 5px;

@@ -3,13 +3,11 @@
     align-items: center;
     flex-direction: column;
 }
-
 .card {
     width: 60%;
     padding: 2vh 2vw;
     margin: 4vh 0;
 }
-
 .card p {
     text-align: justify;
 }
