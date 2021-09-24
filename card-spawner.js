@@ -10,10 +10,7 @@
 //  "text" : "path or url of the image"
 // }
 
-
-
 const main = document.getElementById("main");
-
 
 function spawn_cards(obj) {
   Object.keys(obj).forEach(key => {
