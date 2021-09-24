@@ -20,10 +20,15 @@
     padding: 1em;
 }
 
+.dish {
+    background-color: crimson;    
+}
+.dessert {
+    background-color: orange;
+}
 .order-selection-button {
     color: white;
     font-weight: bold;
-    background-color: crimson;
     border-radius: 20px;
     height: 1em;
     width: 40%;

@@ -11,25 +11,32 @@
 // state of the user's cart during the order interaction.
 
 // The DOM element we're interested in appending to.
-let orderSelection = document.getElementById("order-selection");
+var orderSelection = document.getElementById("order-selection");
 
-console.log(orderSelection);
+var btn_bg = "dish";
 
 // Iterate over the `foods` object using its entries.
-Object.entries(foods).forEach((entry => {
+Object.entries(foods).forEach(((entry, i) => {
     // Array deconstruction
     let [name, value] = entry;
 
+    // Changes the background for the order-selection-button
+    // So that the user can differentiate the dishes from the desserts
+    // the constant 12 is the number of dishes
+    if (i == 12) {
+        btn_bg = "dessert";
+    }
+
     orderSelection.innerHTML += `
-      <div id="${name}" class="order-selection-button">
+    <div id="${name}" class="order-selection-button ${btn_bg}">
         <div class="order-selection-button-wrapper">
-          <span class="order-selection-button-name">${value}</span>
-          <div class="spacer"></div>
-          <button class="order-selection-button-minus" onclick="orderSelectionMinus('${name}')">-</button>
-          <span class="order-selection-button-count">${orderState[name]}</span>
-          <button class="order-selection-button-plus" onclick="orderSelectionPlus('${name}')">+</button>
+        <span class="order-selection-button-name">${value}</span>
+        <div class="spacer"></div>
+        <button class="order-selection-button-minus" onclick="orderSelectionMinus('${name}')">-</button>
+        <span class="order-selection-button-count">${orderState[name]}</span>
+        <button class="order-selection-button-plus" onclick="orderSelectionPlus('${name}')">+</button>
         </div>
-      </div>
+    </div>
     `;
 }));
 
