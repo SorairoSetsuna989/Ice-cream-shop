@@ -13,6 +13,7 @@
 // The DOM element we're interested in appending to.
 var orderSelection = document.getElementById("order-selection");
 
+// Determines the bg color of the spawned button
 var btn_bg = "dish";
 
 // Iterate over the `foods` object using its entries.
